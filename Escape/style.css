@@ -1,0 +1,298 @@
+@font-face{
+	src: url('assets/fonts/brandon-font/brandon-grotesque-black.otf');
+	font-family: 'brandon-grotesque-black';
+}
+@font-face{
+	src: url('assets/fonts/brandon-font/Brandon_bld.otf');
+	font-family: 'brandon-grotesque-bold';
+}
+@font-face{
+	src: url('assets/fonts/brandon-font/Brandon_reg.otf');
+	font-family: 'brandon-grotesque-regular';
+}
+@font-face{
+	src: url('assets/fonts/brandon-font/brandon-grotesque-light.otf');
+	font-family: 'brandon-grotesque-light';
+}
+body{
+	font-family: 'brandon-grotesque-black';
+	font-family: 'brandon-grotesque-light';
+	font-family: 'brandon-grotesque-bold';
+	font-family: 'brandon-grotesque-regular';
+}
+/* header style start */
+
+header{
+	background-image: url('assets/img/header_img.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding-top: 30px;
+	position: relative;
+	z-index: 1;
+}
+header:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #000;
+	left: 0;
+	top: 0;
+	opacity: .4;
+	z-index: -1;
+
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+.header_content{ 	
+	width: 80%;
+	margin: 150px auto 100px auto;
+	text-align: center;
+	color: #fff;
+}
+nav ul li a{
+	font-size: 18px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	color: #ccc;
+}
+.header_content p{
+	font-size: 32px;
+	font-family: 'brandon-grotesque-light';
+	opacity: .7;
+}
+.header_content h1{
+	font-size: 66px;
+	font-family: 'brandon-grotesque-bold';
+	text-transform: uppercase;
+}
+.header_btn{
+	display: block;
+	width: 240px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	margin: 70px auto;
+	padding: 20px 0px;
+	font-size: 23px;
+	font-family: 'brandon-grotesque-regular';
+}
+.header_btn:hover{
+color: #ccc;
+text-decoration: none;
+}
+/* header style end */
+
+ /* Web devetopment area stat */ 
+.section_padding{
+	padding:80px 0px; 
+}
+.web_development h2,.branding h2,.testimonial h1{
+	font-size: 60px;
+	font-family: 'brandon-grotesque-light';
+}
+.web_development span,.branding span{
+	font-size: 60px;
+	font-family: 'brandon-grotesque-bold';
+}
+.web_development p,.branding p,.service p{
+	font-size: 18px;
+	font-family: 'brandon-grotesque-light';
+	color: #777;
+}
+ /* Web devetopment area end  */ 
+
+/* branding area start */
+.branding{
+	background: #fafafa;
+}
+/* branding area start */
+
+
+/* services area start */
+.service h5{
+	font-size: 22px;
+	font-family: 'brandon-grotesque-bold';
+}
+.service row{
+	height: 92px;
+}
+/* services area end */
+
+/* Testimonial area start */
+.section_title{
+	margin-bottom: 60px;
+}
+.testimonial{
+	background-color: #fafafa;
+}
+.testimonial img{
+	border-radius: 50%;
+}
+.testimonial_details{
+	background: #fff;
+	width: 640px;
+	height: 170px;
+	padding: 30px 75px;
+	border-radius: 3px;
+	border: 1px solid #f3f3f3;
+	position: relative;
+}
+.arrow {
+	position: absolute;
+	width:20px;
+	height: 20px;
+	background: #fff;
+	left: -10px;
+	top: 50%;
+	transform: rotate(45deg);
+	border-left: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+}
+.arrow_rside{
+	position: absolute;
+	width:20px;
+	height: 20px;
+	background: #fff;
+	right: -10px;
+	top: 50%;
+	transform: rotate(45deg);
+	border-right: : 2px solid #f3f3f3;
+	border-top: 2px solid #f3f3f3;
+}
+.author_designation{
+	font-size: 20px;
+	font-family: 'brandon-grotesque-light';
+	color: #7690c5;
+}
+.span_bold{
+	font-family: 'brandon-grotesque-bold';
+}
+/* Testimonial area end */
+/* logo area start */
+.logo_section{
+	background: #fff;
+	height: 160px;
+}
+.logo_style{
+	padding:80px;
+}
+/* logo area end */
+
+
+/* Team area start */
+.team_section{
+	 background: #111;
+	 color: #fff;
+}
+.team_bold{
+	font-family: 'brandon-grotesque-bold';
+	font-size: 60px;
+}
+.style_regular{
+	font-size: 22px;
+	font-family: 'brandon-grotesque-regular';
+}
+.team_section h1{
+	font-size: 60px;
+	font-family: 'brandon-grotesque-light';
+}
+.team_section span{
+	font-family: 'brandon-grotesque-bold';
+}
+.team_section img{
+	width:220px;
+	height: 220px;
+	
+	border: 3px solid #fff;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.team_section ul{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+.team_section ul li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border:1px solid #fff ;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 10px;
+	line-height: 2;
+}
+.team_section ul li a{
+	color: #fff;
+}
+.team_section h5{
+	font-family: 'brandon-grotesque-bold';
+	font-size: 18px;
+}
+
+.team_paragraph{
+	font-size: 20px;
+	font-family: 'brandon-grotesque-regular';
+}
+/* Team area end */
+
+/* Footer area start */
+footer{
+	background: #7690c5;
+	color: #fff;
+}
+footer h1{
+	font-size: 60px;
+	font-family: 'brandon-grotesque-light';
+}
+footer h1 span{
+	font-size: 60px;
+	font-family: 'brandon-grotesque-bold';
+}
+footer p{
+	font-size: 18px;
+	font-family: 'brandon-grotesque-regular';
+}
+.footer_contact_info p{
+	font-size: 18px;
+	font-family: 'brandon-grotesque-regular';
+	position: relative;
+	padding-left: 40px;
+}
+.footer_contact_info p i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 25px;
+}
+footer textarea{
+	height: 155px; 
+	padding: 25px 20px !important;
+}
+form input{
+	padding: 25px 20px !important;
+}
+form input[type=submit] {
+    line-height: 0;
+}
+.footer_buttom{
+	border-top: 1px solid #ccc;
+	margin-top: 80px;
+	text-align: center;
+	padding: 30px 0px;
+}
+footer.section_padding {
+    padding-bottom: 0;
+}
+/* Footer area end */
+
+.slicknav_menu{
+	display: none;
+}
